@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.*;
 
 @RestController
 @CrossOrigin(origins = "*")
-@RequestMapping("api/v1/personas")
+@RequestMapping("/api/v1/personas/")
 public class PersonaController {
     private PersonaServices personaServices;
 
